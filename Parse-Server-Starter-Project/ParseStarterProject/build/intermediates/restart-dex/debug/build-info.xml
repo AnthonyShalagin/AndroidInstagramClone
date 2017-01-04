@@ -4,33 +4,40 @@
     density="xxxhdpi"
     format="8"
     plugin-version="2.2.0"
-    timestamp="86076440817057"
+    timestamp="96154253840871"
     token="-6317345567565986486"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="2166" />
+        duration="561" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="826" />
     <task
         name="instant-run-transform"
-        duration="660" />
+        duration="140" />
     <task
         name="verifier"
-        duration="88" />
+        duration="9" />
 
     <artifact
-        location="/Users/anthonyshalagin/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
-        type="MAIN" />
+        location="/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
-        timestamp="86076440817057"
+        timestamp="96077688830801"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/anthonyshalagin/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
+            location="/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/outputs/apk/ParseStarterProject-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="96154253840871"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
