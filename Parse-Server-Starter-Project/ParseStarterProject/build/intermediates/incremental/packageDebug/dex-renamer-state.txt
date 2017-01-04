@@ -1,0 +1,7 @@
+#Wed Jan 04 07:10:42 EST 2017
+base.0=/Users/anthonyshalagin/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d7504f694fbb226525005dee87315059d5caa75d
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/anthonyshalagin/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_eea129fbf2eddf9a5999962b23c51bd55d0eb2c2/classes.dex
+base.1=/Users/anthonyshalagin/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_eea129fbf2eddf9a5999962b23c51bd55d0eb2c2
+file.0=/Users/anthonyshalagin/Desktop/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_d7504f694fbb226525005dee87315059d5caa75d/classes.dex
