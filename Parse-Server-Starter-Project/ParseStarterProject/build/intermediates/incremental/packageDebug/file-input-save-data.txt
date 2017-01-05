@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Jan 04 10:30:53 EST 2017
+#Wed Jan 04 19:13:03 EST 2017
 20.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 143.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 340.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/layout/abc_search_view.xml
@@ -11,7 +11,7 @@
 203.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/color/abc_search_url_text.xml
 86.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 389.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
-236.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png
+236.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_cast_disabled_light.png
 8.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 407.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
 118.set=ANDROID_RESOURCE
@@ -96,7 +96,7 @@
 134.set=ANDROID_RESOURCE
 117.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.4.0_00818f1d4165f6975af2a39311d7455ff89ad907
 11.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/layout/abc_dialog_title_material.xml
-314.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+314.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/abc_list_selector_holo_light.xml
 179.set=ANDROID_RESOURCE
 27.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b7ebf2cdc60af1ae5c28c48c65790cf97ce6e8a1
 176.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/abc_ratingbar_indicator_material.xml
@@ -230,11 +230,11 @@
 45.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 168.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/mergeJavaRes/debug/jars/2/1f/main.jar
 237.set=ANDROID_RESOURCE
-194.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+194.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/abc_tab_indicator_material.xml
 365.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
 115.set=ANDROID_RESOURCE
 78.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
-398.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_alert_dialog_material.xml
+398.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/quantum_ic_volume_mute_white_36.png
 228.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/mr_ic_settings_light.xml
 413.set=ANDROID_RESOURCE
 400.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
@@ -278,11 +278,11 @@
 430.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.4.0_795ec5c96ce16350c96c6dea47440a314bd84e31/classes.dex
 413.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 421.set=ANDROID_RESOURCE
-292.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/layout-v16/cast_mini_controller.xml
+292.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
 275.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 376.set=ANDROID_RESOURCE
 122.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/cast_ic_mini_controller_pause.xml
-155.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/quantum_ic_play_circle_filled_grey600_36.png
+155.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_plus_signin_btn_text_dark_normal.9.png
 299.set=DEX
 309.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 326.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
@@ -475,7 +475,7 @@
 271.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.4.0_5d87e28a6c4948557333aa87000802bde263cb5e/classes.dex
 425.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 166.set=ANDROID_RESOURCE
-101.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+101.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_play_dark.png
 287.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 134.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/quantum_ic_pause_circle_filled_white_36.png
 305.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.4.0_0b924ecdfbae8eb749aa49973c1779fcd126c8cf/classes.dex
@@ -521,7 +521,7 @@
 412.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/cast_ic_notification_forward.xml
 151.set=ANDROID_RESOURCE
 248.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
-274.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_play_light.png
+274.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/quantum_ic_stop_grey600_36.png
 5.set=ANDROID_RESOURCE
 196.set=DEX
 38.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
@@ -531,7 +531,7 @@
 250.set=ANDROID_RESOURCE
 375.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 205.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
-222.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_bar_up_container.xml
+222.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/quantum_ic_keyboard_arrow_down_white_36.png
 173.set=ANDROID_RESOURCE
 238.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 409.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
@@ -547,7 +547,7 @@
 79.set=ANDROID_RESOURCE
 398.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 228.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
-245.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_material_light.xml
+245.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
 281.set=DEX
 108.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_setting_dark.png
 18.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-v21/abc_ratingbar_indicator_material.xml
@@ -674,7 +674,7 @@
 132.set=ANDROID_RESOURCE
 56.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/layout/cast_intro_overlay.xml
 177.set=ANDROID_RESOURCE
-359.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/abc_edit_text_material.xml
+359.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/quantum_ic_forward_10_white_24.png
 89.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_disabled.9.png
 360.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 430.set=DEX
@@ -771,7 +771,7 @@
 374.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/layout/place_autocomplete_item_prediction.xml
 204.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_disabled.9.png
 87.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
-237.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_cast_disabled_light.png
+237.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png
 9.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.4.0_6d80b1922b1f8a9f42bb268db5699119d1f6f81e
 408.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/mr_ic_media_route_connecting_mono_dark.xml
 128.set=ANDROID_RESOURCE
@@ -791,7 +791,7 @@
 364.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/mr_ic_media_route_mono_light.xml
 105.set=ANDROID_RESOURCE
 77.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
-397.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/quantum_ic_volume_mute_white_36.png
+397.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/layout-v17/abc_alert_dialog_material.xml
 403.set=ANDROID_RESOURCE
 358.set=ANDROID_RESOURCE
 30.set=ANDROID_RESOURCE
@@ -834,7 +834,7 @@
 412.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 411.set=ANDROID_RESOURCE
 274.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
-291.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+291.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/layout-v16/cast_mini_controller.xml
 366.set=ANDROID_RESOURCE
 121.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.4.0_fb918be1ff4d534627d092557ac4a86458083535/classes.dex
 154.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_check_material.xml
@@ -855,7 +855,7 @@
 144.set=ANDROID_RESOURCE
 118.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 12.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_dark.xml
-315.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/abc_list_selector_holo_light.xml
+315.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
 189.set=ANDROID_RESOURCE
 28.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 177.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/color-v11/abc_background_cache_hint_selector_material_light.xml
@@ -991,7 +991,7 @@
 169.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 46.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 247.set=DEX
-195.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/abc_tab_indicator_material.xml
+195.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
 366.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_radio_material.xml
 125.set=DEX
 79.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
@@ -1050,7 +1050,7 @@
 276.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 386.set=ANDROID_RESOURCE
 123.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_media_pause.png
-156.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_plus_signin_btn_text_dark_normal.9.png
+156.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/quantum_ic_play_circle_filled_grey600_36.png
 327.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/quantum_ic_closed_caption_white_36.png
 232.set=ANDROID_RESOURCE
 189.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/color/common_plus_signin_btn_text_light.xml
@@ -1077,7 +1077,7 @@
 411.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/quantum_ic_closed_caption_grey600_36.png
 141.set=ANDROID_RESOURCE
 247.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_16862265b8a7dcb6531d6ca93124874d5b495fb9
-273.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/quantum_ic_stop_grey600_36.png
+273.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_play_light.png
 186.set=ANDROID_RESOURCE
 394.set=ANDROID_RESOURCE
 37.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/common_plus_signin_btn_text_light.xml
@@ -1087,7 +1087,7 @@
 240.set=ANDROID_RESOURCE
 374.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 204.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
-221.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/quantum_ic_keyboard_arrow_down_white_36.png
+221.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_bar_up_container.xml
 237.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 408.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 371.set=ANDROID_RESOURCE
@@ -1102,12 +1102,12 @@
 211.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_plus_signin_btn_text_dark_focused.9.png
 69.set=ANDROID_RESOURCE
 397.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
-244.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+244.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_material_light.xml
 271.set=DEX
 107.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/layout/activity_main.xml
 3.set=ANDROID_RESOURCE
 194.set=ANDROID_RESOURCE
-17.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+17.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/quantum_ic_skip_previous_white_36.png
 141.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 419.set=ANDROID_RESOURCE
 46.set=ANDROID_RESOURCE
@@ -1217,7 +1217,7 @@ count=436
 145.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/color/abc_primary_text_material_dark.xml
 122.set=ANDROID_RESOURCE
 55.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/mr_ic_play_dark.xml
-358.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/quantum_ic_forward_10_white_24.png
+358.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/abc_edit_text_material.xml
 88.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/quantum_ic_stop_grey600_48.png
 420.set=ANDROID_RESOURCE
 375.set=ANDROID_RESOURCE
@@ -1228,7 +1228,7 @@ count=436
 255.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 272.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
 426.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
-102.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/ic_play_dark.png
+102.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
 288.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_
 135.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/layout/abc_action_menu_layout.xml
 306.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/abc_btn_default_mtrl_shape.xml
@@ -1261,7 +1261,7 @@ count=436
 423.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable/mr_ic_cast_dark.xml
 27.set=DEX
 285.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/layout-v17/place_autocomplete_item_prediction.xml
-16.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxxhdpi-v4/quantum_ic_skip_previous_white_36.png
+16.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
 148.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/color/switch_thumb_material_dark.xml
 319.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_full_open_on_phone.png
 320.base=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_

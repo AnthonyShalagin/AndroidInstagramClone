@@ -34,34 +34,30 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-//    ParseObject score = new ParseObject("Score");   //Create Score attribute
-//    score.put("username", "anthony");
-//    score.put("score", 95);
-//    score.saveInBackground(new SaveCallback() {
-//      @Override
-//      public void done(ParseException e) {
-//
-//        if (e == null) {
-//          Log.i("SaveInBackground", "Successful ");
-//        } else {
-//          Log.i("SaveInBackground", "Failed. Error: " + e.toString());
-//        }
-//
-//      }
-//    });
+    ParseObject tweet = new ParseObject("Tweet");
+    tweet.put("username", "tweet");
+    tweet.put("anthonyshalagin", "This is my first tweet");
 
+    tweet.saveInBackground(new SaveCallback() {
+      @Override
+      public void done(ParseException e) {
+        if (e == null) {
+          Log.i("Tweet", "Sucessful");
+        } else {
+          Log.i("Tweet", "Failed, error: " + e.toString());
+        }
+      }
+    });
 
-    ParseQuery<ParseObject> query = ParseQuery.getQuery("Score");
-    query.getInBackground("m0DcbMoybd", new GetCallback<ParseObject>() {
+    ParseQuery<ParseObject> query = ParseQuery.getQuery("Tweet");
+    query.getInBackground("dXZiQmYm3b", new GetCallback<ParseObject>() {
       @Override
       public void done(ParseObject object, ParseException e) {
         if (e == null && object != null) {
-
-          object.put("score", 20);
+          object.put("anthonyshalagin", "Changed the tweet contents");
           object.saveInBackground();
 
-          Log.i("ObjectValue", object.getString("username"));
-          Log.i("ObjectValue", Integer.toString(object.getInt("score")));
+
         }
       }
     });
