@@ -40,7 +40,7 @@ public class StarterApplication extends Application {
     object.put("myNumber", "123");
     object.put("myString", "rob");
 
-    ParseUser.enableAutomaticUser();
+//    ParseUser.enableAutomaticUser();
     ParseACL defaultACL = new ParseACL();
     defaultACL.setPublicReadAccess(true);
     defaultACL.setPublicWriteAccess(true);

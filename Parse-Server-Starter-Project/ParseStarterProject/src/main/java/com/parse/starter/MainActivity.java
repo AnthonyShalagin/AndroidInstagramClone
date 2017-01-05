@@ -14,6 +14,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Switch;
 
+import com.parse.FindCallback;
 import com.parse.GetCallback;
 import com.parse.LogInCallback;
 import com.parse.Parse;
@@ -24,6 +25,9 @@ import com.parse.ParseObject;
 import com.parse.ParseQuery;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
+import com.parse.SignUpCallback;
+
+import java.util.List;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -34,34 +38,86 @@ public class MainActivity extends AppCompatActivity {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_main);
 
-    ParseObject tweet = new ParseObject("Tweet");
-    tweet.put("username", "tweet");
-    tweet.put("anthonyshalagin", "This is my first tweet");
+    ParseUser.logOut();
 
-    tweet.saveInBackground(new SaveCallback() {
-      @Override
-      public void done(ParseException e) {
-        if (e == null) {
-          Log.i("Tweet", "Sucessful");
-        } else {
-          Log.i("Tweet", "Failed, error: " + e.toString());
-        }
-      }
-    });
-
-    ParseQuery<ParseObject> query = ParseQuery.getQuery("Tweet");
-    query.getInBackground("dXZiQmYm3b", new GetCallback<ParseObject>() {
-      @Override
-      public void done(ParseObject object, ParseException e) {
-        if (e == null && object != null) {
-          object.put("anthonyshalagin", "Changed the tweet contents");
-          object.saveInBackground();
+    if (ParseUser.getCurrentUser() != null) {
+      Log.i("currentUser", "User logged in " + ParseUser.getCurrentUser().getUsername());
+    } else {
+      Log.i("currentUser", "Not logged in");
+    }
 
 
-        }
-      }
-    });
-    
+//    ParseUser.logInInBackground("anthonyshalagin", "blah", new LogInCallback() {
+//      @Override
+//      public void done(ParseUser user, ParseException e) {
+//        if (user != null) {
+//          Log.i("Login", "Success");
+//        } else {
+//          Log.i("Login", "Fail: " + e.toString());
+//        }
+//      }
+//    });
+
+//    ParseUser user = new ParseUser();
+//    user.setUsername("anthonyshalagin");
+//    user.setPassword("123");
+//
+//    user.signUpInBackground(new SignUpCallback() {
+//      @Override
+//      public void done(ParseException e) {
+//        if (e == null) {
+//          Log.i("Signup", "Success");
+//        } else {
+//          Log.i("Signup", "Failure");
+//        }
+//      }
+//    });
+
+
+
+
+//    ParseQuery<ParseObject> query = ParseQuery.getQuery("Score");
+//    query.whereLessThan("score", 200);
+//    query.findInBackground(new FindCallback<ParseObject>() {
+//      @Override
+//      public void done(List<ParseObject> objects, ParseException e) {
+//        if (e == null && objects != null) {
+//          for (ParseObject object: objects) {
+//            object.put("score", object.getInt("score") + 50);
+//            object.saveInBackground();
+//          }
+//        }
+//      }
+//    });
+
+//    ParseObject tweet = new ParseObject("Tweet");
+//    tweet.put("username", "tweet");
+//    tweet.put("anthonyshalagin", "This is my first tweet");
+//
+//    tweet.saveInBackground(new SaveCallback() {
+//      @Override
+//      public void done(ParseException e) {
+//        if (e == null) {
+//          Log.i("Tweet", "Sucessful");
+//        } else {
+//          Log.i("Tweet", "Failed, error: " + e.toString());
+//        }
+//      }
+//    });
+//
+//    ParseQuery<ParseObject> query = ParseQuery.getQuery("Tweet");
+//    query.getInBackground("dXZiQmYm3b", new GetCallback<ParseObject>() {
+//      @Override
+//      public void done(ParseObject object, ParseException e) {
+//        if (e == null && object != null) {
+//          object.put("anthonyshalagin", "Changed the tweet contents");
+//          object.saveInBackground();
+//
+//
+//        }
+//      }
+//    });
+
     ParseAnalytics.trackAppOpenedInBackground(getIntent());
   }
 
