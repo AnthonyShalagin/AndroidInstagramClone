@@ -178,7 +178,7 @@
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="2be3b4e2dd4d6a1ace2b7af70502ba6d4688ffcb">
+        sha1="43eedfc9b68d1969f4b9b50e95b29e302ba778bf">
         <dex dex="/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e1268b6350a2bc9ac4d3c72239d8d84ab4cd6f3b/classes.dex" />
     </item>
     <item
@@ -223,7 +223,7 @@
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="828cde91c86b3dca32ce2a47f7dc6a331410740b">
+        sha1="62ba184541e1a62c0c2febf8973b5f13b8dd7111">
         <dex dex="/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_b7ebf2cdc60af1ae5c28c48c65790cf97ce6e8a1/classes.dex" />
     </item>
     <item

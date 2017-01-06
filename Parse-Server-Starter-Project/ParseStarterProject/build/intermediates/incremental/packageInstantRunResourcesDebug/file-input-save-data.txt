@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Jan 06 08:46:29 EST 2017
+#Fri Jan 06 10:23:32 EST 2017
 210.set=ANDROID_RESOURCE
 282.file=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/res/resources-debug.ap_/res/drawable-xxhdpi-v4/common_plus_signin_btn_icon_light_disabled.9.png
 14.set=ANDROID_RESOURCE
