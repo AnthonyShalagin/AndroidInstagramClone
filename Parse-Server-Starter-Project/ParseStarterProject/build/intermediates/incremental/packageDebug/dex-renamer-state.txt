@@ -1,4 +1,4 @@
-#Fri Jan 06 10:25:34 EST 2017
+#Fri Jan 06 16:58:07 EST 2017
 base.0=/Users/anthonyshalagin/Desktop/Instagram Clone/Parse-Server-Starter-Project/ParseStarterProject/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_e1268b6350a2bc9ac4d3c72239d8d84ab4cd6f3b
 renamed.1=classes2.dex
 renamed.0=classes.dex
