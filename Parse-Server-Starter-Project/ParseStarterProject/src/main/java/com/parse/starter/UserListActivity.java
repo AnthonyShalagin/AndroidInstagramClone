@@ -14,6 +14,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
@@ -79,6 +81,13 @@ public class UserListActivity extends AppCompatActivity {
 			} else {
 				getPhoto();
 			}
+		} else if (item.getItemId() == R.id.logout) {
+			ParseUser.logOut();
+
+			finish();
+//			Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+//			startActivity(intent);
+
 		}
 
 		return super.onOptionsItemSelected(item);
@@ -127,10 +136,21 @@ public class UserListActivity extends AppCompatActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_user_list);
 
-		final ArrayList<String> usernames = new ArrayList<>();
+		setTitle("User Feed");
 
+		final ArrayList<String> usernames = new ArrayList<>();
 		final ListView userListView = (ListView) findViewById(R.id.userListView);
 		final ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, usernames);
+
+		userListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view, int i, long id) {
+				Intent intent = new Intent(getApplicationContext(), UserFeedActivity.class);
+				intent.putExtra("username", usernames.get(i));
+				startActivity(intent);
+			}
+		});
+
 		userListView.setAdapter(arrayAdapter);
 
 
