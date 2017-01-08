@@ -40,12 +40,13 @@ import java.util.List;
 
 public class UserListActivity extends AppCompatActivity {
 
-
+	//Get the photo from the user
 	public void getPhoto() {
 		Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
 		startActivityForResult(intent, 1);
 	}
 
+	//Make sure that permission has been granted to access the user's photos
 	@Override
 	public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
 		super.onRequestPermissionsResult(requestCode, permissions, grantResults);
@@ -67,7 +68,6 @@ public class UserListActivity extends AppCompatActivity {
 	}
 
 	/*Permission handling for the share button*/
-
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 
@@ -81,6 +81,8 @@ public class UserListActivity extends AppCompatActivity {
 			} else {
 				getPhoto();
 			}
+
+		//Logout functionality
 		} else if (item.getItemId() == R.id.logout) {
 			ParseUser.logOut();
 
@@ -93,7 +95,7 @@ public class UserListActivity extends AppCompatActivity {
 		return super.onOptionsItemSelected(item);
 	}
 
-
+	//The share functionality on Parse. Stores picture shared on Parse
 	@Override
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
@@ -154,7 +156,7 @@ public class UserListActivity extends AppCompatActivity {
 		userListView.setAdapter(arrayAdapter);
 
 
-		/* Create a query that lists user that are signed in the app*/
+		/* Create a query that lists users that are signed in the app*/
 		ParseQuery<ParseUser> query = ParseUser.getQuery();
 		query.whereNotEqualTo("username", ParseUser.getCurrentUser().getUsername());
 		query.addAscendingOrder("username");

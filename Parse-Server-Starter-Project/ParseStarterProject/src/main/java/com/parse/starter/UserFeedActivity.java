@@ -33,14 +33,17 @@ public class UserFeedActivity extends AppCompatActivity {
 
 		final LinearLayout linearLayout = (LinearLayout) findViewById(R.id.linearLayout);
 
+		//Pass the current user's name into the title (e.g. Anthony's Feed)
 		Intent intent = getIntent();
 		String activeUsername = intent.getStringExtra("username");
 		setTitle(activeUsername + "'s Feed");
 
+		//Query by username and when it was created
 		ParseQuery<ParseObject> query = new ParseQuery<ParseObject>("Image");
 		query.whereEqualTo("username", activeUsername);
 		query.orderByDescending("createdAt");
 
+		//Perform the query 
 		query.findInBackground(new FindCallback<ParseObject>() {
 			@Override
 			public void done(List<ParseObject> objects, ParseException e) {

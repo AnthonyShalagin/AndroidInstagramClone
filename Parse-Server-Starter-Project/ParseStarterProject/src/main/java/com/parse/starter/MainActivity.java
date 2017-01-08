@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     startActivity(intent);
   }
 
-
+  /* Enable using the enter key*/
   @Override
   public boolean onKey(View view, int i, KeyEvent keyEvent) {
     if (i == keyEvent.KEYCODE_ENTER && keyEvent.getAction() == keyEvent.ACTION_DOWN) {
@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
       return false;
   }
 
+  /*Change Signup to Login and vice versa when appropriate*/
   @Override
   public void onClick(View view) {
 
@@ -65,16 +66,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
       Button signupButton = (Button) findViewById(R.id.signupButton);
 
+      //Change to login
       if (signUpModeActive) {
         signUpModeActive = false;
         signupButton.setText("Login");
         changeSignupModeTextView.setText("Or, Signup");
 
+      //Change to signup
       } else {
         signUpModeActive = true;
         signupButton.setText("Signup");
         changeSignupModeTextView.setText("Or, Login");
       }
+
+      //Keyboard management. Get rid of the keyboard by tapping on anything else on the screen.
     } else if (view.getId() == R.id.backgroundRelativeLayout || view.getId() == R.id.logoImageView) {
       InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
       inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
@@ -83,18 +88,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
   }
 
+  //Sign up the user using parse
   public void signUp(View view) {
 
     EditText usernameEditText = (EditText) findViewById(R.id.usernameEditText);
 
+    // if the username or password are left blank, then alert the user to enter them
     if (usernameEditText.getText().toString().matches("") || passwordEditText.getText().toString().matches("")) {
       Toast.makeText(this, "A username and password are required.", Toast.LENGTH_SHORT).show();
+
+    //Otherwise, make sure that the user is in signup mode and use Parse to sign the user up
     } else {
       if (signUpModeActive) {
         ParseUser user = new ParseUser();
         user.setUsername(usernameEditText.getText().toString());
         user.setPassword(passwordEditText.getText().toString());
 
+        //Ensure that the user has signed up successfully.
         user.signUpInBackground(new SignUpCallback() {
           @Override
           public void done(ParseException e) {
@@ -108,6 +118,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
           }
         });
 
+        //Otherwise, have the user login and use Parse to verify that the user entered a valid user and password
       } else {
 
         ParseUser.logInInBackground(usernameEditText.getText().toString(), passwordEditText.getText().toString(), new LogInCallback() {
@@ -129,6 +140,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
   }
+
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
